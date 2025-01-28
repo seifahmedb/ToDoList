@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,");
+
+* {
+    box-sizing: border-box;
+    background-color: #2C2C2C;
+    
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-family: "Racing Sans One", sans-serif;
+}
+
+.text-with-line {
+    position: relative;
+}
+
+
+.text-with-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20rem;
+    transform: translateY(-50%);
+    width: 60px; 
+    height: 2px;
+    background-color: #ccc; 
+}
+
+
+.text-with-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20rem;
+    transform: translateY(-50%);
+    width: 60px; 
+    height: 2px;
+    background-color: #ccc; 
+}
+
+.icon-with-line {
+    position: relative;
+  }
+
+.icon-with-line::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 20rem;
+    transform: translateY(-50%);
+    width: 280px; 
+    height: 2px;
+    background-color: #ccc; 
+}
+
+
+.icon-with-line::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20rem;
+    transform: translateY(-50%);
+    width: 280px; 
+    height: 2px;
+    background-color: #ccc; 
+}
+
+.add{
+    margin-bottom: 2rem;
+    margin-left: 27rem;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.add .adds {
+
+    width: 142.69px;
+    height: 49.44px;
+    background-color: #4F4F4F;
+    color: white;
+    text-align: center;
+    margin-left: -100px;
+    border-radius: 20px;
+    font-family: "Inter", serif;
+    font-size: 25px;
+}
+
+
+.add input {
+    width: 826.03px;
+    height: 49.44px;
+    padding: 1rem;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-family: "Inter", serif;
+}
+
+.addTask {
+    width: 142.69px;
+    height:49.44px;
+    background-color: #4F4F4F;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-left: -120px;
+    padding: 0.6rem;
+    font-size:25px ;
+    font-family: "Racing Sans One", sans-serif;
+    
+}
+
+ul {
+    margin-left: 480px;
+    margin-top: 3rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+li {
+    background-color: #999999;
+    height: 39px;
+    width: 50rem;
+    border-radius: 10px;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    /* color: white; */
+    font-size: 19px;
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+}
+
+li span {
+    margin-right: auto;
+    color: black;
+    background-color: #999999;
+}
+
+li p {
+    border-radius: 10px;
+    background-color: #999999;
+    height: 36px;
+    width: 38px;
+    font-size: 1.3rem;
+    display: flex;
+    margin-right: 78px;
+    
+    
+}
+
+li P button {
+    color: silver;
+    border-radius: 10px;
+    height: 36px;
+    width: 38px;
+    font-size: 1.3rem;
+    margin-left: 8px;
+}
+
+li i {
+    font-size: 20px;
+}
